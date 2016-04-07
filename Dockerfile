@@ -6,7 +6,7 @@
 
 FROM debian:jessie
 
-MAINTAINER Jeremie Robert <appydo@gmail.com> version: 0.2
+MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
 # Let the container know that there is no tty
 ENV DEBIAN_FRONTEND noninteractive

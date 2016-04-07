@@ -138,3 +138,8 @@ service mysql restart && mysql -ppass < /tmp/ISPConfig_Clean-3.0.5/sql/ispc-clea
 # Directory for dump SQL backup
 mkdir -p /var/backup/sql
 freshclam
+
+# --- cleanup
+apt-get -y autoremove
+apt-get clean
+rm -rf /var/lib/apt/lists/*
